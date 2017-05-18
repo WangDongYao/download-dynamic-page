@@ -1,0 +1,25 @@
+{
+  "name": "chrome-ddp",
+  "version": "1.0.0",
+  "description": "An using chrome headless mode to download dynamic page tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/download-npm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangDongYao/download-dynamic-page.git"
+  },
+  "keywords": [
+    "chrome",
+    "headless",
+    "crawl",
+    "download"
+  ],
+  "author": "WangDongYao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WangDongYao/download-dynamic-page/issues"
+  },
+  "homepage": "https://github.com/WangDongYao/download-dynamic-page#readme"
+}
