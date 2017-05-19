@@ -1,6 +1,6 @@
 {
   "name": "chrome-ddp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An using chrome headless mode to download dynamic page tool.",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/WangDongYao/download-dynamic-page/issues"
   },
-  "homepage": "https://github.com/WangDongYao/download-dynamic-page#readme"
+  "homepage": "https://github.com/WangDongYao/download-dynamic-page#readme",
+  "dependencies": {
+    "chrome-remote-interface": "^0.22.0",
+    "lighthouse": "^1.6.5"
+  }
 }
