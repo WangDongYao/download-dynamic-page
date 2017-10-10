@@ -4,7 +4,8 @@
   "description": "An using chrome headless mode to download dynamic page tool.",
   "main": "index.js",
   "scripts": {
-    "test": "node test/download-npm.js"
+    "test": "node test/download-npm.js",
+    "fix": "node ./node_modules/standard/bin/cmd.js --fix"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,10 @@
   },
   "homepage": "https://github.com/WangDongYao/download-dynamic-page#readme",
   "dependencies": {
-    "chrome-remote-interface": "^0.22.0",
-    "lighthouse": "^1.6.5"
+    "chrome-launcher": "^0.8.1",
+    "chrome-remote-interface": "^0.22.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
   }
 }
